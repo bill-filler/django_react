@@ -1,0 +1,93 @@
+*.py[cod]
+
+*.log
+
+# C extensions
+*.so
+
+# Packages
+*.egg
+*.egg-info
+dist
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+
+lib64
+__pycache__
+
+# Installer logs
+pip-log.txt
+
+# Django
+default.db
+db.sqlite3
+package-lock.json
+
+# Static assets
+media/cache/
+assets/bundles
+
+# Unit test / coverage reports
+.coverage
+.pytest_cache
+test_root
+.tox
+nosetests.xml
+unittests.xml
+
+### Internationalization artifacts
+*.mo
+*.po
+*.prob
+!django.po
+!django.mo
+!djangojs.po
+!djangojs.mo
+journals/conf/locale/fake*/LC_MESSAGES/*.po
+journals/conf/locale/fake*/LC_MESSAGES/*.mo
+journals/conf/locale/messages.mo
+
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+
+# QA
+coverage.xml
+diff_*.html
+*.report
+report
+venv
+acceptance_tests.*.log
+acceptance_tests.*.png
+
+# Override config files
+override.cfg
+private.py
+
+# JetBrains
+.idea
+
+# OS X
+.DS_Store
+
+# Editor Temp Files
+*.swp
+
+*.trace
+
+docs/_build/
+node_modules
+
+
+# Additional
+*/media/*
+
+# Vscode
+.vscode
